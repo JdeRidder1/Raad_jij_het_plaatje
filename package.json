@@ -1,0 +1,16 @@
+{
+  "name": "ts-skeleton-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:HZ-HBO-ICT/ts-skeleton-app.git",
+  "author": "HZ University of Applied Sciences",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch" 
+  },
+  "devDependencies": {
+    "typescript": "^3.1.6"
+  }
+}
