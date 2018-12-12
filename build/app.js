@@ -1,21 +1,73 @@
-class Animal {
-    constructor(name, legs, sound) {
-        this.name = name;
-        this.legs = legs;
-        this.sound = sound;
+class Canvas {
+    constructor() {
     }
-    getName() {
-        return this.name;
+    writeTextToCanvas(text, fontSize, xCoordinate, yCoordinate, color, alignment) {
     }
-    getLegs() {
-        return this.legs;
+    writeImageToCanvas(src, xCoordinate, yCoordinate, deltaX, deltaY) {
     }
-    getSound() {
-        return this.sound;
+    writeButtonToCanvas() {
     }
 }
-const animals = [
-    new Animal('dog', 4, 'woof'),
-    new Animal('cat', 4, 'meow')
-];
-animals.forEach((animal) => console.log('A %s has %s legs and goes %s!', animal.getName(), animal.getLegs(), animal.getSound()));
+class Game {
+    constructor() {
+    }
+    loop() {
+    }
+    eventHandler() {
+    }
+    start_screen() {
+    }
+    title_screen() {
+    }
+    level_screen() {
+    }
+}
+class Player {
+    constructor() {
+    }
+    click() {
+    }
+    type() {
+    }
+}
+class Quiz {
+    constructor() {
+    }
+    check_answer() {
+    }
+}
+class QuizScreen {
+    constructor() {
+    }
+    choose() {
+    }
+    confirm() {
+    }
+    next() {
+    }
+}
+class ScoreScreen {
+    constructor() {
+    }
+    save() {
+    }
+}
+class StartScreen {
+    constructor() {
+    }
+    move() {
+    }
+    update() {
+    }
+    next() {
+    }
+}
+class SubjectScreen {
+    constructor() {
+    }
+    choose() {
+    }
+    next() {
+    }
+}
+//# sourceMappingURL=app.js.map
