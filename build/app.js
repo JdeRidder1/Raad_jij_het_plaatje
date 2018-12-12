@@ -1,52 +1,73 @@
 class Canvas {
-    constructor(canvasId) {
-        this._canvas = canvasId;
-        this._canvas.width = window.innerWidth;
-        this._canvas.height = window.innerHeight;
-        this.ctx = this._canvas.getContext('2d');
+    constructor() {
     }
-    clear() {
-        this.ctx.clearRect(0, 0, this._canvas.width, this._canvas.height);
-    }
-    getWidth() {
-        return this._canvas.width;
-    }
-    getHeight() {
-        return this._canvas.height;
-    }
-    writeTextToCanvas(text, fontSize, xCoordinate, yCoordinate, color, alignment = "center") {
-        this.ctx.font = `${fontSize}px Arial`;
-        this.ctx.fillStyle = color;
-        this.ctx.textAlign = alignment;
-        this.ctx.fillText(text, xCoordinate, yCoordinate);
+    writeTextToCanvas(text, fontSize, xCoordinate, yCoordinate, color, alignment) {
     }
     writeImageToCanvas(src, xCoordinate, yCoordinate, deltaX, deltaY) {
-        let element = document.createElement("img");
-        element.src = src;
-        element.addEventListener("load", () => {
-            this.ctx.drawImage(element, xCoordinate, yCoordinate);
-        });
     }
-    writeButtonToCanvas(src, xCoordinate, yCoordinate, deltaX, deltaY) {
-        let element = document.createElement("img");
-        element.src = src;
-        element.addEventListener("load", () => {
-            this.ctx.drawImage(element, xCoordinate, yCoordinate);
-        });
-    }
-    randomNumber(min, max) {
-        return Math.round(Math.random() * (max - min) + min);
+    writeButtonToCanvas() {
     }
 }
 class Game {
     constructor() {
-        this.state = null;
-        this.player = null;
-        this.quiz = null;
+    }
+    loop() {
+    }
+    eventHandler() {
+    }
+    start_screen() {
+    }
+    title_screen() {
+    }
+    level_screen() {
     }
 }
-window.addEventListener('load', init);
-function init() {
-    const RaadjePlaatJe = new Game();
+class Player {
+    constructor() {
+    }
+    click() {
+    }
+    type() {
+    }
+}
+class Quiz {
+    constructor() {
+    }
+    check_answer() {
+    }
+}
+class QuizScreen {
+    constructor() {
+    }
+    choose() {
+    }
+    confirm() {
+    }
+    next() {
+    }
+}
+class ScoreScreen {
+    constructor() {
+    }
+    save() {
+    }
+}
+class StartScreen {
+    constructor() {
+    }
+    move() {
+    }
+    update() {
+    }
+    next() {
+    }
+}
+class SubjectScreen {
+    constructor() {
+    }
+    choose() {
+    }
+    next() {
+    }
 }
 //# sourceMappingURL=app.js.map

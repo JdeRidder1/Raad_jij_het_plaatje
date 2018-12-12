@@ -1,24 +1,25 @@
-///<reference path="Canvas.ts" />
-
-// Initialisatie variabelen.
-
 class Game {
-    private state: string = null;
-    private player: string = null;
-    private quiz: string = null;
-    private highScores: Array<any>
-
+    private state: string;
+    private player: string;
+    private quiz: Array<any>; // <any> is placeholder voor quiz
+    private highScores: Array<any>; // <any> is placeholder voor player
 
     public constructor() {
 
     }
+    public loop() {
+
+    }
+    public eventHandler() {
+
+    }
+    public start_screen() {
+
+    }
+    public title_screen() {
+
+    }
+    public level_screen() {
+
+    }
 }
-
-
-window.addEventListener('load', init);
-
-function init(): void {
-    const RaadjePlaatJe = new Game();
-   
-}
-
