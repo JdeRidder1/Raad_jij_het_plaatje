@@ -1,0 +1,17 @@
+
+canvas{
+    background-image: url("../IMG/StartScreen.jpg");
+    width: 100vw;
+    height: 100vh;
+    border: 2px solid #33BBFF;
+}
+
+*{
+    margin:0;
+    padding: 0;
+}
+
+body {
+    overflow: hidden;
+    
+}
