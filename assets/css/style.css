@@ -1,0 +1,65 @@
+
+canvas{
+    background-image: url("../IMG/CanvasBg.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-top: 5%;
+    width: 80vw;
+    height: 90vh;
+    border: 2px solid #efefef;
+    border-radius: 10px;
+    
+}
+
+*{
+    margin:0;
+    padding: 0;
+}
+
+
+
+#submit{
+    border: 1px solid #efefef;
+    padding: 5px 30px;
+    border-radius: 10px;
+    
+}
+
+
+
+/* Custom CSS */
+
+
+#backgroundText{
+    background-color: #efefef;
+    opacity: 0.6;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+body {
+    overflow: hidden;
+    background-image: url("../IMG/Galaxy.jpg");
+    width: 100vw;
+    height: 100vh;
+    border: 2px solid #efefef;
+    
+}
+
+
+#footer{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 5px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    background-color: #666363;
+    margin-top:3%;
+    opacity: 0.5;
+}
+
+#answerForm{
+    text-align: center;
+}
